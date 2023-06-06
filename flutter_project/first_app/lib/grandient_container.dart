@@ -17,7 +17,7 @@ class GradientContainer extends StatelessWidget {
 
   void rollDice() {
     // ...
-    // asldkfj
+    //
   }
 
   @override
