@@ -17,7 +17,7 @@ class GradientContainer extends StatelessWidget {
 
   void rollDice() {
     // ...
-    // need to add function here 
+    // need to add function here
   }
 
   @override
@@ -42,13 +42,13 @@ class GradientContainer extends StatelessWidget {
               onPressed: rollDice,
               style: TextButton.styleFrom(
                 padding: const EdgeInsets.only(
-                  top: 20,
+                  top: 25,
                 ),
                 foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 28),
               ),
               child: const Text('Roll Dice'),
-            )
+            ),
           ],
         ),
       ),
