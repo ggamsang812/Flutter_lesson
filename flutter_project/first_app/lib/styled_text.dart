@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//How to seperate codes in to seperate files
 class StyledText extends StatelessWidget {
   const StyledText(this.text, {super.key});
 
