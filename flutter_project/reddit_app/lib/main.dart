@@ -65,9 +65,12 @@ class _RedditScraperPageState extends State<RedditScraperPage> {
 
   void startTimer() {
     // set timer time here
-    timer = Timer.periodic(Duration(minutes: 2), (_) {
-      fetchPosts();
-    });
+    timer = Timer.periodic(
+      Duration(minutes: 2),
+      (_) {
+        fetchPosts();
+      },
+    );
   }
 
   Future<void> refreshPosts() async {
