@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 final randomizer = Random();
 
+// can you give rolling animation when the button is pressed
 class DiceRoller extends StatefulWidget {
   const DiceRoller({super.key});
 
