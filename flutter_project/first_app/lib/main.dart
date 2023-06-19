@@ -4,8 +4,15 @@ import 'grandient_container.dart';
 import 'package:shake/shake.dart';
 
 void main() {
-  runApp(
-    const MaterialApp(
+  runApp(const MainApp());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
       home: Scaffold(
         body: GradientContainer(
           colorList: [
@@ -14,8 +21,8 @@ void main() {
           ],
         ),
       ),
-    ),
-  );
+    );
+  }
 }
 
 // ShakeDector
