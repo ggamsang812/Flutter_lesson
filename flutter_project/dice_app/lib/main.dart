@@ -18,12 +18,10 @@ class MainApp extends StatelessWidget {
             onTap: () {
               print('Image clicked!');
             },
+            behavior: HitTestBehavior.translucent,
             child: ModelViewer(
               src: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb',
               alt: "A 3D model of an astronaut",
-              ar: true,
-              autoRotate: true,
-              cameraControls: true,
             ),
           ),
         ),
